@@ -100,7 +100,7 @@ print(num) // num 안에 들어가져 있는 5가 출력이 된다.
   print(floatValue)
   ```
 
-- #### Character
+- ### Character
 
   #### Character는 말 그대로 '문자'를 의미한다. 
 
@@ -110,15 +110,15 @@ print(num) // num 안에 들어가져 있는 5가 출력이 된다.
 
   - ##### 문자를 표현하기 위해서는 값의 앞뒤에 큰따옴표를 사용하여 표현한다.
 
-  ```swift
-  let chrA: Character = "A"
-  print(chrA) // A
-  
-  //Character 값에 유니코드 문자를 사용할 수 있다.
-  let 한글ㄱ: Character = "ㄱ"
-  
-  print("한글의 첫자음: \(한글ㄱ)") // 한글의 첫자음: ㄱ
-  ```
+```swift
+let chrA: Character = "A"
+print(chrA) // A
+
+//Character 값에 유니코드 문자를 사용할 수 있다.
+let 한글ㄱ: Character = "ㄱ"
+
+print("한글의 첫자음: \(한글ㄱ)") // 한글의 첫자음: ㄱ
+```
 
 - ### String
 
